@@ -1,0 +1,98 @@
+/*Fuentes*/
+.rock-salt-regular {
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+html{
+    background-color: black;
+    color: aquamarine;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+div.header{
+
+    h1{
+        font-size: 60px;
+    }
+
+    margin-top: 8rem;
+    margin-left: 1rem;
+    font-family: "Rock Salt", cursive;
+
+    button{
+        background-color: rgba(127, 255, 212, 0.459);
+        color: black;
+        border: none;
+        padding: 10px, 20px;
+        cursor: pointer;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border-radius: 3rem;
+        padding-inline: 2rem;
+        padding-block: 0.8rem;
+        margin-left: 0rem;
+        margin-right: 1rem;
+        font-size: 20px;
+
+
+
+    }
+
+    button:hover {
+        background-color: aquamarine;
+        background-blend-mode:multiply;
+        padding-block: 0.8rem;
+        animation: alternate 0.5s;
+    }
+
+   button:active{
+    background-color: aquamarine;
+   }
+
+   button:has(input:checked){
+        background-color: aqua;
+        background-blend-mode:multiply;
+        padding-block: 1rem;
+        padding-inline: 0.6;
+        animation: alternate 0.5s;
+   }
+
+    
+div.actions{
+    input{
+        visibility: hidden;
+        size: 0;
+        display: none
+    };
+}
+   
+
+    .playbtn{
+        margin-top: 1rem;
+        padding-block: 0rem;
+        button{
+            background-color: brown;
+        }
+
+        button:hover{
+            background-color: red;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            font-family: "Rock Salt", Bold;
+        }
+    }
+
+    
+}
+
